@@ -1,73 +1,89 @@
-#🧠 Adaptive Math Tutor for Grade 5 Students
+# 🎒 Adaptive Math Tutor for Grade 5 Students
 
-📌 Overview
-This project is a simple web-based adaptive math tutor designed to help 5th grade elementary students understand addition of hundreds through personalized practice and friendly feedback.
-The system adjusts question difficulty based on each student’s performance.
+A simple **web-based adaptive math tutor** designed to help **5th grade elementary students** understand **addition of hundreds** through personalized practice and child-friendly feedback.
 
-🎯 Project Goal
-Help students understand addition of hundreds
-Reduce common mistakes such as forgetting to carry numbers
-Increase learning confidence through adaptive feedback
-Test real usage with elementary school students
+This project focuses on **real educational impact**, tested with actual students, and implements a lightweight adaptive learning logic.
 
-👥 Target Users
-10 students (Grade 5 Elementary School)
-Designed for small group learning
+---
 
-📘 Learning Scope
-Mathematics – Addition of Hundreds
-Without carrying
-Carrying in ones
-Carrying in ones and tens
+## 🌟 Key Features
+- Adaptive question difficulty based on student performance  
+- Friendly and encouraging feedback for children  
+- Focused learning on addition of hundreds  
+- Simple and intuitive web interface  
+- Designed for small group learning (10 students)  
 
-🧠 How the Adaptive System Works
-The student answers a math question
-The system evaluates correctness and error type
-The student’s understanding score is updated
-The next question difficulty is adjusted
-Friendly feedback is displayed
+---
 
-🧮 Adaptive Logic
-Score < 0.4 → Easy questions
-Score 0.4 – 0.7 → Medium questions
-Score > 0.7 → Challenging questions
+## 🎯 Project Goal
+The goal of this project is to support elementary students in mastering addition of hundreds by:
+- Reducing common mistakes such as forgetting to carry numbers  
+- Adjusting question difficulty based on understanding level  
+- Improving learning confidence through positive feedback  
+- Providing a simple AI-assisted learning companion  
 
-🛠 Tech Stack
-Python
-Streamlit
-Rule-based adaptive logic
-JSON / in-memory storage
+---
 
-🖥 Application Interface
-Home screen
-Question screen
-Feedback screen
-Simple progress indicator
-(Screenshots will be added here)
+## 👥 Target Users
+- 10 Grade 5 elementary school students  
+- Designed for use with real children (tested with siblings and peers)  
 
-🧪 Testing
-This application was tested with real Grade 5 students to observe:
-Improvement in accuracy
-Reduction of repeated mistakes
-Student engagement
+---
 
-📈 Success Metrics
-Increased answer accuracy over time
-Fewer repeated conceptual errors
-Students willing to continue practicing
+## 📘 Learning Scope
+**Mathematics – Addition of Hundreds**
+- Addition without carrying  
+- Addition with carrying in ones  
+- Addition with carrying in ones and tens  
 
-🚀 How to Run
+---
+
+## 🧠 How the Adaptive System Works
+1. A student answers a math question  
+2. The system checks correctness and identifies common mistakes  
+3. The student’s understanding score is updated  
+4. The next question difficulty is adjusted automatically  
+5. Friendly feedback is shown to guide learning  
+
+---
+
+## 🧮 Adaptive Logic
+| Understanding Score | Question Difficulty |
+|--------------------|--------------------|
+| < 0.4              | Easy               |
+| 0.4 – 0.7          | Medium             |
+| > 0.7              | Challenging        |
+
+---
+
+## 📊 Success Metrics
+- Increased accuracy over time  
+- Reduced repetition of the same mistakes  
+- Students willing to continue practicing  
+- Improved confidence when solving math problems  
+
+---
+
+## 🖥 Application Interface
+The web application includes:
+- Home / Start screen  
+- Question screen  
+- Feedback screen  
+- Simple progress indicator  
+
+*(Screenshots or demo GIF can be added here)*
+
+---
+
+## 🛠 Tech Stack
+- **Python**
+- **Streamlit**
+- Rule-based adaptive learning logic
+- In-memory / JSON data storage
+
+---
+
+## 🚀 How to Run the App
+```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-🌱 Future Improvements
-More math topics
-Visual explanations
-
-Teacher dashboard
-
-Persistent student profiles
-
-❤️ Motivation
-
-This project was inspired by real learning needs of elementary school students and aims to support personalized education using simple AI concepts.
